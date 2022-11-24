@@ -1,16 +1,14 @@
 window.onload = function(){
-  const swiper = new Swiper('#banner.swiper', {
-    // Optional parameters
+
+  const loop_auto_center_3={
     loop: true,
     slidesPerView: 3,
-    // slidesPerGroup: 3,
     centeredSlides: true,
-    // If we need pagination
+
     pagination: {
       el: '#banner.swiper .swiper-pagination',
     },
   
-    // Navigation arrows
     navigation: {
       nextEl: '#banner.swiper .swiper-button-next',
       prevEl: '#banner.swiper .swiper-button-prev',
@@ -21,9 +19,7 @@ window.onload = function(){
       pauseOnMouseEnter:	true
     }
   
-    // // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
-  });
+  }
+
+  const swiper = new Swiper('#banner.swiper', loop_auto_center_3);
 }
