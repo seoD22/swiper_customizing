@@ -5,14 +5,14 @@
   position: relative;
 }
 
-#banner .swiper-slide-active,
-#banner .swiper-slide-duplicate-active{
+#banner.pc_slide-initialized .swiper-slide-active,
+#banner.pc_slide-initialized .swiper-slide-duplicate-active{
   opacity: 1;
   overflow: visible;
 }
 
-#banner .swiper-slide-active div,
-#banner .swiper-slide-duplicate-active div{
+#banner.pc_slide-initialized .swiper-slide-active div,
+#banner.pc_slide-initialized .swiper-slide-duplicate-active div{
   color: red;
   font-size: 50px;
   font-weight: bold;
